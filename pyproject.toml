@@ -2,12 +2,12 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "python_complex_operations_devops"
+name = "python_random_math_devops"
 version = "0.0.1"
 authors = [
   { name="Rafael Maia de Souza", email="rmaiadesouza@gmail.com" },
 ]
-description = "Complex operations package"
+description = "Random Math Package"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -16,5 +16,5 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 [project.urls]
-"Homepage" = "https://github.com/rmaiaaaa/python-complex-operations-devops"
-"Bug Tracker" = "https://github.com/rmaiaaaa/python-complex-operations-devops/issues"
+"Homepage" = "https://github.com/rmaiaaaa/random-math"
+"Bug Tracker" = "https://github.com/rmaiaaaa/random-math/issues"
