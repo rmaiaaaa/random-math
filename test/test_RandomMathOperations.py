@@ -3,7 +3,7 @@ from RandomMath.RandomMathOperations import RandomMath
 
 class TestJustSomeMath:
 
-    def test1(self):
+    def test_random_sum(self):
         
         #Arrange
         randomMath = RandomMath()
