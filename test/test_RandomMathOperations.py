@@ -13,6 +13,6 @@ class TestJustSomeMath:
         result = randomMath.random_sum(number)
         
         #Assert
-        assert result < number
+        assert result > number
 
         pass
