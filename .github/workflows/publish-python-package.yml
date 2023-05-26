@@ -5,7 +5,7 @@ name: Publish Python Package
 
 on:
   workflow_run
-    workflows: ['Python Package CI']
+    workflows: [Python Package CI]
     types: [requestd]
     branches:
       - '*'
