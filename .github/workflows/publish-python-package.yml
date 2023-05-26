@@ -6,7 +6,7 @@ name: Publish Python Package
 on:
   workflow_run:
     workflows: [Python Package CI]
-    types: [requested]
+    types: [completed]
     branches:
       - '*'
 
@@ -31,4 +31,9 @@ jobs:
     - name: Create Dist
       run: |
         python -m build
+    - name: Publish to TestPyPi
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{secrets.TESTPYPI_API_TOKEN}}
       
