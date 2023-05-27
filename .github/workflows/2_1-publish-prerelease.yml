@@ -3,7 +3,7 @@
 
 name: Publish on TestPypi
 
-on: workflow_dispatch
+on: workflow_call
 
 jobs:
   

@@ -5,7 +5,7 @@ name: Package Prerelease
 on:
   release:
     types:
-      - released
+      [published]
 
 jobs:
   
