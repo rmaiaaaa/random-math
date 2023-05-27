@@ -8,8 +8,8 @@ on:
     types: [released]
 
 jobs:
-  build:
-    
+  
+  publish:  
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
