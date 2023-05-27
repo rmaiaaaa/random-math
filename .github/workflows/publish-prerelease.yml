@@ -11,7 +11,6 @@ jobs:
   
   publish:  
     runs-on: ubuntu-latest
-    
     steps:
       - uses: actions/checkout@v3
       - name: Check release
@@ -25,10 +24,10 @@ jobs:
           target: "dist/"
           version: tags/${{ github.event.release.tag_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Publish to TestPyPi
-      uses: pypa/gh-action-pypi-publish@release/v1
-      with:
-        user: __token__
-        password: ${{secrets.TESTPYPI_API_TOKEN}}
-        repository_url: https://test.pypi.org/legacy/
-        skip_existing: true
+      - name: Publish to TestPyPi
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{secrets.TESTPYPI_API_TOKEN}}
+          repository_url: https://test.pypi.org/legacy/
+          skip_existing: true
