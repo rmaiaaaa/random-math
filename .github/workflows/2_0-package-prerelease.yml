@@ -4,7 +4,8 @@ name: Package Prerelease
 
 on:
   release:
-    types: [published]
+    types:
+      - published
 
 jobs:
   
