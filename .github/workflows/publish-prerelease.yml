@@ -3,9 +3,9 @@
 
 name: Publish on TestPypi
 
-on:
+on: workflow_dispatch
   release:
-    types: [pre]
+    types: [prerelease]
 
 jobs:
   
