@@ -1,0 +1,15 @@
+# Publish Python Package to Pypi
+
+name: Package Prerelease
+
+on:
+  release:
+    types: [prereleased]
+
+jobs:
+  
+  publish:
+    uses: ./.github/workflows/publish-prerelease.yml
+    with:
+      tag_name: ${{ github.event.release.tag_name }}
+    secrets: inherit
