@@ -18,7 +18,7 @@ jobs:
         uses: dsaltares/fetch-gh-release-asset@1.0.0
         with:
           regex: true
-          file: "RandomMath.*"
+          file: "random_math.*"
           target: "dist/"
           version: tags/${{ github.event.release.tag_name }}
           token: ${{ secrets.MY_GITHUB_TOKEN }}
