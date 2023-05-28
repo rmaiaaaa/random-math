@@ -5,12 +5,12 @@ name: Package Prerelease
 on:
   release:
     types:
-      [released]
+      [prereleased]
 
 jobs:
   
   publish:
-    uses: ./.github/workflows/publish-prerelease.yml
+    uses: ./.github/workflows/2_1-publish-prerelease.yml
     with:
       tag_name: ${{ github.event.release.tag_name }}
     secrets: inherit
