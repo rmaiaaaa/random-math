@@ -53,7 +53,7 @@ jobs:
         with:
           artifacts: "dist/*"
           generateReleaseNotes: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
           prerelease: true
       - name: Publish Release
         if: steps.tagtype.outputs.type == 'release'
@@ -61,5 +61,5 @@ jobs:
         with:
           artifacts: "dist/*"
           generateReleaseNotes: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
           prerelease: false

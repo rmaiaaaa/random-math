@@ -21,7 +21,7 @@ jobs:
           file: "RandomMath.*"
           target: "dist/"
           version: tags/${{ github.event.release.tag_name }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
       - name: Publish to TestPyPi
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
