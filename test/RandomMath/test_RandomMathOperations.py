@@ -8,13 +8,7 @@ class TestJustSomeMath:
         #Arrange
         randomMath = RandomMath()
         number = 1
-
-
-
-
-
-
-
+        
         #Act
         result = randomMath.random_sum(number)
         
