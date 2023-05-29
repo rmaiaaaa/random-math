@@ -11,3 +11,4 @@ async def root():
 @app.get("/math/sum/{number}")
 async def random_sum(number: int = 0):
     return{"message": math.random_sum(number)}
+  
