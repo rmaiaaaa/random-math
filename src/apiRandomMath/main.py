@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-import RandomMath.RandomMathOperations as RandomMath
+from RandomMath import RandomMathOperations as RandomMath
 
 app = FastAPI()
+math = RandomMath.RandomMath()
 
 
 @app.get("/")

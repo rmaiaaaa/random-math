@@ -6,7 +6,7 @@ class TestJustSomeMath:
     def test_random_sum(self):
         
         #Arrange
-        randomMath = RandomMathOperations.RandomMath()
+        randomMath = RandomMath()
         number = 1
 
         #Act
