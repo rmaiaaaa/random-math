@@ -6,6 +6,7 @@ name: Package CI
 on:
   push:
     branches: [ "main", "develop", "feature/*" ]
+    paths: ['src/RandomMath/**', 'test/RandomMath**', '*/*.toml']
     tags: v*
   pull_request:
     branches: [ "main" ]
