@@ -11,4 +11,5 @@ class RandomMath:
         Realiza a soma de um número de entrada com um número aleatório
         '''
         random_int = random.randint(1, number)
-        return 5
+        random_int = 5
+        return random_int
