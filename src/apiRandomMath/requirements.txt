@@ -1,3 +1,3 @@
 fastapi==0.95.*
 uvicorn[standard]
-random-math-rmaiaaaa-0.0.13
+random-math-rmaiaaaa
