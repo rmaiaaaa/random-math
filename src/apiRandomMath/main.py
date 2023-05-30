@@ -21,5 +21,5 @@ async def random_sub(number: int = 0):
 
 
 @app.get("/math/mul/{number}")
-async def random_sub(number: int = 0):
+async def random_mul(number: int = 0):
     return {"message": math.random_mul(number)}
