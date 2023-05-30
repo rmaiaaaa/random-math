@@ -16,3 +16,17 @@ class TestJustSomeMath:
         assert result > number
 
         pass
+
+    def test_random_sub(self):
+
+        # Arrange
+        randomMath = RandomMath()
+        number = 1
+
+        # Act
+        result = randomMath.random_sub(number)
+
+        # Assert
+        assert result < number
+
+        pass
