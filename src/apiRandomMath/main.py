@@ -19,6 +19,7 @@ async def random_sum(number: int = 0):
 async def random_sub(number: int = 0):
     return {"message": math.random_sub(number)}
 
+
 @app.get("/math/mul/{number}")
 async def random_sub(number: int = 0):
     return {"message": math.random_mul(number)}
