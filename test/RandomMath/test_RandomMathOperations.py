@@ -30,3 +30,17 @@ class TestJustSomeMath:
         assert result < number
 
         pass
+
+    def test_random_mul(self):
+
+        # Arrange
+        randomMath = RandomMath()
+        number = 1
+
+        # Act
+        result = randomMath.random_mul(number)
+
+        # Assert
+        assert result >= number
+
+        pass

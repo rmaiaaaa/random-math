@@ -39,6 +39,9 @@
                         <li>
                                 <a class="function" href="#RandomMath.random_sub">random_sub</a>
                         </li>
+                        <li>
+                                <a class="function" href="#RandomMath.random_mul">random_mul</a>
+                        </li>
                 </ul>
 
             </li>
@@ -84,6 +87,13 @@
 </span><span id="L-19"><a href="#L-19"><span class="linenos">19</span></a><span class="sd">        &#39;&#39;&#39;</span>
 </span><span id="L-20"><a href="#L-20"><span class="linenos">20</span></a>        <span class="n">random_int</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
 </span><span id="L-21"><a href="#L-21"><span class="linenos">21</span></a>        <span class="k">return</span> <span class="n">number</span> <span class="o">-</span> <span class="n">random_int</span>
+</span><span id="L-22"><a href="#L-22"><span class="linenos">22</span></a>
+</span><span id="L-23"><a href="#L-23"><span class="linenos">23</span></a>    <span class="k">def</span> <span class="nf">random_mul</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span><span id="L-24"><a href="#L-24"><span class="linenos">24</span></a><span class="w">        </span><span class="sd">&#39;&#39;&#39;</span>
+</span><span id="L-25"><a href="#L-25"><span class="linenos">25</span></a><span class="sd">        Realiza a multiplicação de um número de entrada por um número aleatório</span>
+</span><span id="L-26"><a href="#L-26"><span class="linenos">26</span></a><span class="sd">        &#39;&#39;&#39;</span>
+</span><span id="L-27"><a href="#L-27"><span class="linenos">27</span></a>        <span class="n">random_int</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+</span><span id="L-28"><a href="#L-28"><span class="linenos">28</span></a>        <span class="k">return</span> <span class="n">number</span> <span class="o">*</span> <span class="n">random_int</span>
 </span></pre></div>
 
 
@@ -117,6 +127,13 @@
 </span><span id="RandomMath-20"><a href="#RandomMath-20"><span class="linenos">20</span></a><span class="sd">        &#39;&#39;&#39;</span>
 </span><span id="RandomMath-21"><a href="#RandomMath-21"><span class="linenos">21</span></a>        <span class="n">random_int</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
 </span><span id="RandomMath-22"><a href="#RandomMath-22"><span class="linenos">22</span></a>        <span class="k">return</span> <span class="n">number</span> <span class="o">-</span> <span class="n">random_int</span>
+</span><span id="RandomMath-23"><a href="#RandomMath-23"><span class="linenos">23</span></a>
+</span><span id="RandomMath-24"><a href="#RandomMath-24"><span class="linenos">24</span></a>    <span class="k">def</span> <span class="nf">random_mul</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span><span id="RandomMath-25"><a href="#RandomMath-25"><span class="linenos">25</span></a><span class="w">        </span><span class="sd">&#39;&#39;&#39;</span>
+</span><span id="RandomMath-26"><a href="#RandomMath-26"><span class="linenos">26</span></a><span class="sd">        Realiza a multiplicação de um número de entrada por um número aleatório</span>
+</span><span id="RandomMath-27"><a href="#RandomMath-27"><span class="linenos">27</span></a><span class="sd">        &#39;&#39;&#39;</span>
+</span><span id="RandomMath-28"><a href="#RandomMath-28"><span class="linenos">28</span></a>        <span class="n">random_int</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+</span><span id="RandomMath-29"><a href="#RandomMath-29"><span class="linenos">29</span></a>        <span class="k">return</span> <span class="n">number</span> <span class="o">*</span> <span class="n">random_int</span>
 </span></pre></div>
 
 
@@ -168,6 +185,31 @@
 
 
             <div class="docstring"><p>Realiza a subtração de um número de entrada por um número aleatório</p>
+</div>
+
+
+                            </div>
+                            <div id="RandomMath.random_mul" class="classattr">
+                                        <input id="RandomMath.random_mul-view-source" class="view-source-toggle-state" type="checkbox" aria-hidden="true" tabindex="-1">
+<div class="attr function">
+            
+        <span class="def">def</span>
+        <span class="name">random_mul</span><span class="signature pdoc-code condensed">(<span class="param"><span class="bp">self</span>, </span><span class="param"><span class="n">number</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span></span><span class="return-annotation">) -> <span class="nb">int</span>:</span></span>
+
+                <label class="view-source-button" for="RandomMath.random_mul-view-source"><span>View Source</span></label>
+
+    </div>
+    <a class="headerlink" href="#RandomMath.random_mul"></a>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="RandomMath.random_mul-24"><a href="#RandomMath.random_mul-24"><span class="linenos">24</span></a>    <span class="k">def</span> <span class="nf">random_mul</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span><span id="RandomMath.random_mul-25"><a href="#RandomMath.random_mul-25"><span class="linenos">25</span></a><span class="w">        </span><span class="sd">&#39;&#39;&#39;</span>
+</span><span id="RandomMath.random_mul-26"><a href="#RandomMath.random_mul-26"><span class="linenos">26</span></a><span class="sd">        Realiza a multiplicação de um número de entrada por um número aleatório</span>
+</span><span id="RandomMath.random_mul-27"><a href="#RandomMath.random_mul-27"><span class="linenos">27</span></a><span class="sd">        &#39;&#39;&#39;</span>
+</span><span id="RandomMath.random_mul-28"><a href="#RandomMath.random_mul-28"><span class="linenos">28</span></a>        <span class="n">random_int</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+</span><span id="RandomMath.random_mul-29"><a href="#RandomMath.random_mul-29"><span class="linenos">29</span></a>        <span class="k">return</span> <span class="n">number</span> <span class="o">*</span> <span class="n">random_int</span>
+</span></pre></div>
+
+
+            <div class="docstring"><p>Realiza a multiplicação de um número de entrada por um número aleatório</p>
 </div>
 
 

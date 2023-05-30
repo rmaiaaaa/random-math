@@ -19,3 +19,10 @@ class RandomMath:
         '''
         random_int = random.randint(1, number)
         return number - random_int
+
+    def random_mul(self, number: int = 0) -> int:
+        '''
+        Realiza a multiplicação de um número de entrada por um número aleatório
+        '''
+        random_int = random.randint(1, number)
+        return number * random_int
